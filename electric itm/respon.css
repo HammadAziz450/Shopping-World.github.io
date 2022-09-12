@@ -6,20 +6,9 @@
     .pent{
       text-align: center;
     }
-    .shopping-cart{
-      margin-top: 0px!important;
-      margin-left: 0px!important;
-    }
     .d-flex {
        display:  inline-block!important;
     }
-    .card img {
-      height: 22pc !important;
-  }
-  .svg{
-    margin-top: -68px;
-    margin-left: 212px;
-  }
     .nav-menu.active {
       top: 72px!important;
     }
@@ -47,10 +36,6 @@
     .float-end{
       margin-right: 3pc;
       display: flex !important;
-    }
-    .shopping-cart{
-      margin-top: 0 !important;
-      margin-left: 0!important;
     }
     .pent{
       text-align: center;

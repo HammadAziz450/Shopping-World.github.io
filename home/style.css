@@ -260,8 +260,11 @@ color:#222 ;
   .d-flex{
     display: inline-block !important;
   }
+  *{
+    margin-right: 0px !important;
+  }
   .accordion {
-    width: 200%;
+    width: 100%;
   }
   .float-end{
     margin-right: 3pc;
@@ -271,12 +274,19 @@ color:#222 ;
     text-align: center;
   }
   .card{
-    margin-left: 68px;
+    margin-left: 0px !important;
     margin-bottom: 10px;
   }
-  .mt-5{
-    margin-left: 8pc;
+  textarea{
+    width: 46%;
+    display: block;
   }
+  .form-control{
+    width: 16pc !important;
+  }
+  /* .mt-5{
+    margin-left: 8pc;
+  } */
   .nav-menu{
     top: -1900%;
     width: 100%;
@@ -296,9 +306,15 @@ color:#222 ;
   .contact-us{
     display: block;
   }
+  .para{
+    width: 20%;
+  }
   .right-side{
-    width: 182%;
-    margin-left: 45px;
+    width: 96%;
+    margin-left: 9px;
+  }
+  .bg-dark{
+    width: 100%;
   }
   .first-part{
     width: 173%;
