@@ -84,7 +84,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
      <div class="col-md-8">
      <div class="card-body">
      <div class="d-flex">
-     <h5 class="card-title" id="secr">${title}</h5>
+     <h5 class="card-title" id="two">${title}</h5>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
          <path  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
         </svg>
@@ -98,18 +98,18 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 
  setTimeout(() => {
-  let secr = document.getElementById('secr');
+  let two = document.getElementById('two');
   let ff = document.getElementById('ff');
-   console.log(secr);
-   if (secr.innerText  = "null") {
+  //  console.log(secr);
+   if (two.innerText  = "null") {
     ff.classList.add('remove')
     ff.classList.remove('mb-3')
 
-     if (secr.valueOf()){
+     if (title.valueOf()){
       ff.classList.remove('remove')
       ff.classList.add('mb-3')
 
-      secr.innerText = `${title.valueOf()}` 
+      two.innerText = `${title.valueOf()}` 
     }
    }
 }, 1);
@@ -145,7 +145,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
  setTimeout(() => {
   let three = document.getElementById('three');
   let dr = document.getElementById('dr');
-   console.log(secr);
+  //  console.log(secr);
    if (three.innerText  = "null") {
     dr.classList.add('remove')
     dr.classList.remove('mb-3')
@@ -161,6 +161,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 
 }, 1);
+
  let fourthT =  localStorage.getItem('fourthT')
  let fourthD = localStorage.getItem('fourthD')
  let fourthp =  localStorage.getItem('fourthp')

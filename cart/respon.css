@@ -13,7 +13,7 @@
       top: 72px!important;
     }
     .card{
-      margin-left: 23px;
+      margin-left: 23px !important;
       margin-bottom: 10px;
     }
     .nav-menu{
@@ -32,7 +32,7 @@
       margin-left: 113px;
     }
   }
-  @media only screen and  (max-width: 1138px){
+  @media only screen and  (max-width: 769px){
     .float-end{
       margin-right: 3pc;
       display: flex !important;
