@@ -1,0 +1,250 @@
+.container-fluid{
+    display: block;
+  }
+  .main-slider img {
+    width: 100%;
+  }
+  .main-slider  {
+    overflow: hidden;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar-brand b{
+    color: rgb(157 165 170);
+    font-size: 32px;
+    font-family: 'Allan', cursive;
+  }
+  
+  .aboutbanner img{
+    height: 200px;
+    width: 100%;
+    height: 300px;
+  
+  }
+
+  
+  body{
+    background-color: #e7e7e775 !important;
+  }
+  
+  
+  
+  
+  
+  nav {
+    padding: 20px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+  .remove{
+    display: block;
+    visibility: hidden;
+  }
+  .logo {
+    align-self: center;
+    font-family: "Passion One", "sans-serif";
+    font-size: 1.8rem;
+    color: white;
+    margin: 0;
+    z-index: 3;
+  }
+  span {
+    
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+  .nav-menu {
+    /*nav menu hidden for mobile*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style: none;
+    top: -1000%;
+    left: 0;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    z-index: 2;
+  }
+  .nav-menu.active {
+    top: 70px;
+  }
+  .nav-item {
+    margin: 30px 0;
+    text-transform: uppercase;
+  }
+  .nav-menu a {
+    color: #222;
+    font-weight: 550;
+    font-size: 1.2rem;
+  }
+  a:hover {
+    color: #6a6c6b !important;
+  }
+  .hamburger {
+    /*hamburger menu*/
+    cursor: pointer;
+    z-index: 3;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  
+  
+  .nav-brand{
+    margin-right: 31rem;
+    margin-left: 0rem;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    z-index: 3;
+    margin-top: 20px;
+  }
+  body{
+    background-color: #e7e7e775;
+  }
+  .pro{
+    margin-right: 77px;
+  }
+  
+  footer{
+    width: 100%;
+    height: 370px;
+  }
+  
+  .about{
+    width: 33%;
+    padding-top: 66px;
+  }
+  .color{
+    color: white;
+  }
+  .service{
+    padding-top: 66px;
+    padding-right: 3rem;
+    padding-left: 6rem;
+  }
+  p{
+    margin-bottom: 5px;
+  }
+  .service p{
+    cursor: pointer;
+  }
+  .service h3 , .contact h3{
+    padding-bottom: 25px;
+  }
+  .contact{
+    padding-top: 66px;
+  }
+  .icon{
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .icon-2{
+    padding-top: 12px;
+    padding-right: 20px;
+  }
+  .phone-no a , .mail-t p a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .ico{
+    padding-top: 30px;
+    padding-right:27px;
+  }
+  .mail-t p{
+    margin-top: 18px;
+  }
+  input{
+  width: 40pc;
+  }
+  .contact-us{
+    display: flex;
+    margin-top: 132px;
+    margin-bottom: 20px;
+  }
+  .first-part{
+    width: 47%;
+    margin: 18px 0;
+  }
+  .first-part h1{
+    font-size: 40px;
+  }
+  .first-part p{
+    margin-bottom: 40px;
+  }
+  input {
+    margin-bottom: 17px;
+    margin-right: 40px;
+    width: 44%;
+    width: 131%;
+    padding: 11px;
+  }
+  .right-side{
+    box-shadow: 0px 0px 103px -72px;
+    width: 24%;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    padding: 44px;
+    height: 40rem;
+    width: 52%;
+    margin-left: 222px;
+    margin-top: 23px;
+  }
+  .svg{
+    color:#1b479d  ;
+  }
+  .right-side i{
+    color: red;
+  }
+  .max-width2{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .btn1{
+    padding: 18px 50px 17px;
+    border-radius: 4px;
+    margin: 3px 0 60px 0;
+    background: linear-gradient(to bottom, rgba(32,137,179,1) 1%,rgba(38,156,203,1) 99%);
+    color: #ffffff;
+    border-color: transparent;
+    font-size: 16px;
+  }
+  .top , .center  , .bottom{
+  margin: 33px 0;
+  line-height: 17px;
+  }
+  code{
+  color:#222 ;
+  }
+  
+  
+  
+  
+  

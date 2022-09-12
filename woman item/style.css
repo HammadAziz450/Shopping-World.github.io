@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e7e7e775;
+}
+
+.form-control{
+    width: 72%;
+} 
+
+.pent{
+    font-size: 50px;
+
+}
+
+.btn{
+    height: 36px;   
+    margin-top: 9px;
+}
+.card-plus{
+    margin-left: 6px;
+}
+.minus{
+    margin-left: 23px;
+}
+.plus{
+    margin-right: 20px;
+
+}
+
+.card-plus p{
+    margin-top: 14px; 
+}
+
+.d-flex{
+    justify-content: space-between;
+}
+
+.card img{
+    height: 347px;
+}
+
+.prk{
+    margin-top: -18px;
+}
