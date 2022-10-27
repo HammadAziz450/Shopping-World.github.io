@@ -1,6 +1,22 @@
 .container-fluid{
   display: block;
 }
+div , h1{
+  overflow: hidden;
+}
+.footer-flex{
+  display: flex !important;
+}
+.mera-d-flex{
+  display: flex !important;
+}
+.nav-bar{
+  width: 115%;
+  margin-left: 2px;
+}
+.width{
+  width: 42%;
+}
 .main-slider img {
   width: 100%;
 }
@@ -114,7 +130,9 @@ a:hover {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-
+.my-d-flex{
+  display: flex !important;
+}
 
 .nav-brand{
   margin-right: 31rem;
@@ -181,8 +199,8 @@ p{
 .mail-t p{
   margin-top: 18px;
 }
-input{
-width: 40pc;
+input , textarea {
+  width: 573px !important ;
 }
 .contact-us{
   display: flex;
@@ -190,7 +208,7 @@ width: 40pc;
   margin-bottom: 20px;
 }
 .first-part{
-  width: 47%;
+  width: 100%;
   margin: 18px 0;
 }
 .first-part h1{
@@ -199,12 +217,22 @@ width: 40pc;
 .first-part p{
   margin-bottom: 40px;
 }
+.card{
+  width: 18rem !important;
+}
+
+.home-slider{
+  display: flex !important ;
+  /* margin-top: 3rem; */
+}
+
+
 input {
   margin-bottom: 17px;
   margin-right: 40px;
   width: 44%;
   width: 131%;
-  padding: 11px;
+  padding: 11px; 
 }
 .right-side{
   box-shadow: 0px 0px 103px -72px;
@@ -256,88 +284,154 @@ color:#222 ;
 
 
 
-@media  (max-width: 376px){
-  .d-flex{
-    display: inline-block !important;
-  }
-  *{
-    margin-right: 0px !important;
-  }
-  .accordion {
-    width: 100%;
-  }
-  .float-end{
-    margin-right: 3pc;
-    display: flex !important;
-  }
-  .pent{
-    text-align: center;
-  }
-  .card{
-    margin-left: 0px !important;
-    margin-bottom: 10px;
-  }
-  textarea{
-    width: 46%;
-    display: block;
-  }
-  .form-control{
-    width: 16pc !important;
-  }
-  /* .mt-5{
-    margin-left: 8pc;
-  } */
-  .nav-menu{
-    top: -1900%;
-    width: 100%;
-  }
-  .nav-brand{
-    margin-right: 9px;
-  }
-  .nav-brand img {
-    height: 43px;
-  }
-  .navbar-brand b{
-    font-size: 25px;
-  }
-  .btn-dark{
-    margin-left: 113px;
-  }
-  .contact-us{
-    display: block;
-  }
+@media  (max-width:992px){
   .para{
-    width: 20%;
+    width: 148%;
   }
-  .right-side{
-    width: 96%;
-    margin-left: 9px;
+  .nav-menu{
+    width: 54%;
   }
-  .bg-dark{
-    width: 100%;
+  .nav-menu.active {
+    top: 70px !important ;
+  }
+  .home-slider{
+    overflow: hidden;
   }
   .first-part{
-    width: 173%;
-    margin-left: 51px;
+    margin-left: 214px;
   }
-  footer {
-    width: 208%;
-    height: auto;
+  .dev{
+    margin-top: 30px;
+  }
+  .my-d-flex{
+    display: block !important;
+  }
+  .footer-flex{
+    display: flex !important;
   }
   .about{
-    width: auto;
+    width: 100%;
   }
   .about h3{
     text-align: center;
   }
+  footer{
+    height: 1000px;
+  }
   .service{
-    text-align: center;
     padding-left: 0;
-    padding-right: 0;
-  }
-  .contact ,.location ,.phone, .mail {
-    display: flex;
     text-align: center;
-    flex-direction: column;
   }
+  .responsive{
+    text-align: center;
+  }
+  .contact{
+    text-align: center;
+    margin-right: 43px;
+    width: 97%;
+  }
+  .form-control , textarea{
+    width: 100% !important;
+  }
+  .first-part p {
+    font-size: 18.9px;
+}
+  .first-part{
+    width: 100%;
+    margin-left: 0;
+  }
+  .navbar-brand {
+    margin-right:0rem;
+  }
+  .nav-menu {
+    top: -1676px !important;
+  }
+  .nav-menu.active {
+    top: 70px ;
+  }
+}
+
+@media  (max-width:525px){
+  .first-part{
+      width: 100%;
+      margin-left: 0;
+  }
+  .nav-menu.active {
+    top: 70px !important ;
+  }
+  .nav-menu {
+    top: -1676px !important;
+  }
+  .nav-menu{
+    width: 100%;
+  }
+  .footer-flex{
+    display: block !important;
+  }
+  .first-part p{
+    font-size: 12.9px;
+    width: 51%;
+    text-align: center;
+    padding-left: 91px;
+  }
+  footer{
+    height: 1100px;
+  }
+  .dev{
+    margin-bottom: 25px;
+  }
+  .ico{
+    margin-left: 45px;
+  }
+  .navbar-brand {
+    margin-right:0rem;
+  }
+}
+
+
+@media  (max-width:321px){
+  .dev{
+    font-size: 13px;
+  }
+  .nav-menu.active {
+    top: 70px !important;
+  }
+  .nav-menu{
+    width: 100%;
+  }
+  .nav-menu {
+    top: -1676px !important;
+  }
+  .ico{
+    margin-left: 16px;
+  }
+  footer{
+    margin-bottom: -27px;
+  }
+  .footer-flex{
+    display: block !important;
+  }
+  .navbar-brand {
+    margin-right:0rem;
+  }
+  
+}
+
+@media  (max-width:426px){
+  .dev{
+    margin-left: 20px;
+  }
+  .nav-menu {
+    top: -1676px;
+  }
+  .nav-menu{
+    width: 100%;
+  }
+  .nav-menu.active {
+    top: 70px !important ;
+  }
+  .navbar-brand {
+    margin-right:0rem;
+  }
+  
 }

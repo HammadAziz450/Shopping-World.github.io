@@ -69,8 +69,8 @@ li svg{
   background-color: #e7e7e775;
 } */
 
-.form-control{
-  width: 72%;
+.form-control {
+  width: 87% !important;
   margin-top: 6px;
 } 
 .tra{
@@ -292,10 +292,12 @@ width: 40pc;
   margin-top: 132px;
   margin-bottom: 20px;
 }
-.first-part{
-  width: 47%;
+.first-part {
+  width: 140%;
   margin: 18px 0;
 }
+
+
 .first-part h1{
   font-size: 40px;
 }
@@ -312,7 +314,7 @@ input {
 .ico-1{
   margin-top: 27px;
 }
-.right-side{
+/* .right-side{
   box-shadow: 0px 0px 103px -72px;
   width: 24%;
   text-align: center;
@@ -320,9 +322,9 @@ input {
   padding: 44px;
   height: 40rem;
   width: 52%;
-  margin-left: 222px;
+  /* margin-left: 222px; 
   margin-top: 23px;
-}
+} */
 
 .right-side i{
   color: red;

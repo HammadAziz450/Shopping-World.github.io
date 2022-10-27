@@ -1,0 +1,9 @@
+.card {
+    width: 35rem !important;
+}
+.d-flex{
+    justify-content: space-between;
+}
+svg{
+    color: #000 !important;
+}
